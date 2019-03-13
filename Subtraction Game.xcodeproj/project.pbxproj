@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7402322239BBFA00930ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402312239BBFA00930ADA /* AppDelegate.swift */; };
+		6D7402342239BBFA00930ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402332239BBFA00930ADA /* ViewController.swift */; };
+		6D7402372239BBFA00930ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7402352239BBFA00930ADA /* Main.storyboard */; };
+		6D7402392239BBFE00930ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7402382239BBFE00930ADA /* Assets.xcassets */; };
+		6D74023C2239BBFE00930ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D74023A2239BBFE00930ADA /* LaunchScreen.storyboard */; };
+		6D7402472239BBFE00930ADA /* Subtraction_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402462239BBFE00930ADA /* Subtraction_GameTests.swift */; };
+		6D7402522239BBFE00930ADA /* Subtraction_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402512239BBFE00930ADA /* Subtraction_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D7402432239BBFE00930ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7402262239BBFA00930ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D74022D2239BBFA00930ADA;
+			remoteInfo = "Subtraction Game";
+		};
+		6D74024E2239BBFE00930ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7402262239BBFA00930ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D74022D2239BBFA00930ADA;
+			remoteInfo = "Subtraction Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D74022E2239BBFA00930ADA /* Subtraction Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Subtraction Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7402312239BBFA00930ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D7402332239BBFA00930ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D7402362239BBFA00930ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D7402382239BBFE00930ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D74023B2239BBFE00930ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D74023D2239BBFE00930ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7402422239BBFE00930ADA /* Subtraction GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subtraction GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7402462239BBFE00930ADA /* Subtraction_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtraction_GameTests.swift; sourceTree = "<group>"; };
+		6D7402482239BBFE00930ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D74024D2239BBFE00930ADA /* Subtraction GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subtraction GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7402512239BBFE00930ADA /* Subtraction_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtraction_GameUITests.swift; sourceTree = "<group>"; };
+		6D7402532239BBFE00930ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D74022B2239BBFA00930ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D74023F2239BBFE00930ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D74024A2239BBFE00930ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7402252239BBFA00930ADA = {
+			isa = PBXGroup;
+			children = (
+				6D7402302239BBFA00930ADA /* Subtraction Game */,
+				6D7402452239BBFE00930ADA /* Subtraction GameTests */,
+				6D7402502239BBFE00930ADA /* Subtraction GameUITests */,
+				6D74022F2239BBFA00930ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D74022F2239BBFA00930ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D74022E2239BBFA00930ADA /* Subtraction Game.app */,
+				6D7402422239BBFE00930ADA /* Subtraction GameTests.xctest */,
+				6D74024D2239BBFE00930ADA /* Subtraction GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7402302239BBFA00930ADA /* Subtraction Game */ = {
+			isa = PBXGroup;
+			children = (
+				6D7402312239BBFA00930ADA /* AppDelegate.swift */,
+				6D7402332239BBFA00930ADA /* ViewController.swift */,
+				6D7402352239BBFA00930ADA /* Main.storyboard */,
+				6D7402382239BBFE00930ADA /* Assets.xcassets */,
+				6D74023A2239BBFE00930ADA /* LaunchScreen.storyboard */,
+				6D74023D2239BBFE00930ADA /* Info.plist */,
+			);
+			path = "Subtraction Game";
+			sourceTree = "<group>";
+		};
+		6D7402452239BBFE00930ADA /* Subtraction GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D7402462239BBFE00930ADA /* Subtraction_GameTests.swift */,
+				6D7402482239BBFE00930ADA /* Info.plist */,
+			);
+			path = "Subtraction GameTests";
+			sourceTree = "<group>";
+		};
+		6D7402502239BBFE00930ADA /* Subtraction GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D7402512239BBFE00930ADA /* Subtraction_GameUITests.swift */,
+				6D7402532239BBFE00930ADA /* Info.plist */,
+			);
+			path = "Subtraction GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D74022D2239BBFA00930ADA /* Subtraction Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7402562239BBFE00930ADA /* Build configuration list for PBXNativeTarget "Subtraction Game" */;
+			buildPhases = (
+				6D74022A2239BBFA00930ADA /* Sources */,
+				6D74022B2239BBFA00930ADA /* Frameworks */,
+				6D74022C2239BBFA00930ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subtraction Game";
+			productName = "Subtraction Game";
+			productReference = 6D74022E2239BBFA00930ADA /* Subtraction Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D7402412239BBFE00930ADA /* Subtraction GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7402592239BBFE00930ADA /* Build configuration list for PBXNativeTarget "Subtraction GameTests" */;
+			buildPhases = (
+				6D74023E2239BBFE00930ADA /* Sources */,
+				6D74023F2239BBFE00930ADA /* Frameworks */,
+				6D7402402239BBFE00930ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D7402442239BBFE00930ADA /* PBXTargetDependency */,
+			);
+			name = "Subtraction GameTests";
+			productName = "Subtraction GameTests";
+			productReference = 6D7402422239BBFE00930ADA /* Subtraction GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D74024C2239BBFE00930ADA /* Subtraction GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D74025C2239BBFE00930ADA /* Build configuration list for PBXNativeTarget "Subtraction GameUITests" */;
+			buildPhases = (
+				6D7402492239BBFE00930ADA /* Sources */,
+				6D74024A2239BBFE00930ADA /* Frameworks */,
+				6D74024B2239BBFE00930ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D74024F2239BBFE00930ADA /* PBXTargetDependency */,
+			);
+			name = "Subtraction GameUITests";
+			productName = "Subtraction GameUITests";
+			productReference = 6D74024D2239BBFE00930ADA /* Subtraction GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7402262239BBFA00930ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "GS Develop Inc.";
+				TargetAttributes = {
+					6D74022D2239BBFA00930ADA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6D7402412239BBFE00930ADA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6D74022D2239BBFA00930ADA;
+					};
+					6D74024C2239BBFE00930ADA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6D74022D2239BBFA00930ADA;
+					};
+				};
+			};
+			buildConfigurationList = 6D7402292239BBFA00930ADA /* Build configuration list for PBXProject "Subtraction Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7402252239BBFA00930ADA;
+			productRefGroup = 6D74022F2239BBFA00930ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D74022D2239BBFA00930ADA /* Subtraction Game */,
+				6D7402412239BBFE00930ADA /* Subtraction GameTests */,
+				6D74024C2239BBFE00930ADA /* Subtraction GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D74022C2239BBFA00930ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D74023C2239BBFE00930ADA /* LaunchScreen.storyboard in Resources */,
+				6D7402392239BBFE00930ADA /* Assets.xcassets in Resources */,
+				6D7402372239BBFA00930ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7402402239BBFE00930ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D74024B2239BBFE00930ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D74022A2239BBFA00930ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7402342239BBFA00930ADA /* ViewController.swift in Sources */,
+				6D7402322239BBFA00930ADA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D74023E2239BBFE00930ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7402472239BBFE00930ADA /* Subtraction_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7402492239BBFE00930ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7402522239BBFE00930ADA /* Subtraction_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D7402442239BBFE00930ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D74022D2239BBFA00930ADA /* Subtraction Game */;
+			targetProxy = 6D7402432239BBFE00930ADA /* PBXContainerItemProxy */;
+		};
+		6D74024F2239BBFE00930ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D74022D2239BBFA00930ADA /* Subtraction Game */;
+			targetProxy = 6D74024E2239BBFE00930ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D7402352239BBFA00930ADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7402362239BBFA00930ADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D74023A2239BBFE00930ADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D74023B2239BBFE00930ADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D7402542239BBFE00930ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D7402552239BBFE00930ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D7402572239BBFE00930ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69L52YT426;
+				INFOPLIST_FILE = "Subtraction Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D7402582239BBFE00930ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69L52YT426;
+				INFOPLIST_FILE = "Subtraction Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D74025A2239BBFE00930ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69L52YT426;
+				INFOPLIST_FILE = "Subtraction GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subtraction Game.app/Subtraction Game";
+			};
+			name = Debug;
+		};
+		6D74025B2239BBFE00930ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69L52YT426;
+				INFOPLIST_FILE = "Subtraction GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subtraction Game.app/Subtraction Game";
+			};
+			name = Release;
+		};
+		6D74025D2239BBFE00930ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69L52YT426;
+				INFOPLIST_FILE = "Subtraction GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Subtraction Game";
+			};
+			name = Debug;
+		};
+		6D74025E2239BBFE00930ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69L52YT426;
+				INFOPLIST_FILE = "Subtraction GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Subtraction Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7402292239BBFA00930ADA /* Build configuration list for PBXProject "Subtraction Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7402542239BBFE00930ADA /* Debug */,
+				6D7402552239BBFE00930ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7402562239BBFE00930ADA /* Build configuration list for PBXNativeTarget "Subtraction Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7402572239BBFE00930ADA /* Debug */,
+				6D7402582239BBFE00930ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7402592239BBFE00930ADA /* Build configuration list for PBXNativeTarget "Subtraction GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D74025A2239BBFE00930ADA /* Debug */,
+				6D74025B2239BBFE00930ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D74025C2239BBFE00930ADA /* Build configuration list for PBXNativeTarget "Subtraction GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D74025D2239BBFE00930ADA /* Debug */,
+				6D74025E2239BBFE00930ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7402262239BBFA00930ADA /* Project object */;
+}
