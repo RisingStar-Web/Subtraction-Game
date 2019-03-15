@@ -47,6 +47,9 @@
                                 <state key="normal" title="Answer 0">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnAnswer0ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q2x-Ag-via"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQ3-tU-Rje">
                                 <rect key="frame" x="16" y="481" width="343" height="50"/>
@@ -56,6 +59,9 @@
                                 <state key="normal" title="Answer 1">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnAnswer1ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jdN-Hp-KTX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4X-gP-eTO">
                                 <rect key="frame" x="16" y="539" width="343" height="50"/>
@@ -65,6 +71,9 @@
                                 <state key="normal" title="Answer 2">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnAnswer2ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AZn-gZ-NdU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zb4-cN-MCx">
                                 <rect key="frame" x="16" y="597" width="343" height="50"/>
@@ -74,6 +83,9 @@
                                 <state key="normal" title="Answer 3">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btbAnswer3ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8em-E8-EoY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subtraction Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o58-ao-bgT">
                                 <rect key="frame" x="16" y="43" width="343" height="60"/>
@@ -86,6 +98,15 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnAnswer0" destination="vXE-gy-wFR" id="zwK-TX-dlL"/>
+                        <outlet property="btnAnswer1" destination="EQ3-tU-Rje" id="Xyl-Lh-KXs"/>
+                        <outlet property="btnAnswer2" destination="m4X-gP-eTO" id="q9H-U1-aYm"/>
+                        <outlet property="btnAnswer3" destination="zb4-cN-MCx" id="ag7-3B-BDu"/>
+                        <outlet property="lblCorrectIncorrect" destination="gc5-Mx-f0i" id="9bd-Jc-Blm"/>
+                        <outlet property="lblQuestion" destination="Q2u-mZ-fMl" id="Ciz-0z-5N3"/>
+                        <outlet property="lblTotalCorrect" destination="uCs-9o-vKz" id="SoL-EL-hhE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
