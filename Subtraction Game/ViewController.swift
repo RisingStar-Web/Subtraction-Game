@@ -41,19 +41,35 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnAnswer0ACTION(_ sender: UIButton) {
-        
+        if buttonCorrect == 0 {
+            button0Correct()
+        }else if buttonCorrect != 0 {
+            incorrectLogic()
+        }
     }
     
     @IBAction func btnAnswer1ACTION(_ sender: UIButton) {
-        
+        if buttonCorrect == 1 {
+            button1Correct()
+        }else if buttonCorrect != 1 {
+            incorrectLogic()
+        }
     }
     
     @IBAction func btnAnswer2ACTION(_ sender: UIButton) {
-        
+        if buttonCorrect == 2 {
+            button2Correct()
+        }else if buttonCorrect != 2 {
+            incorrectLogic()
+        }
     }
     
     @IBAction func btbAnswer3ACTION(_ sender: UIButton) {
-        
+        if buttonCorrect == 3 {
+            button3Correct()
+        }else if buttonCorrect != 3 {
+            incorrectLogic()
+        }
     }
     
     func randomizeTheNumbers() {
@@ -119,6 +135,43 @@ class ViewController: UIViewController {
             btnAnswer2.setTitle("\(incorrectAnswer1)", for: .normal)
             btnAnswer0.setTitle("\(incorrectAnswer2)", for: .normal)
         }
+    }
+    
+    func incorrectLogic() {
+        correctIncorrect = "Incorrect :("
+        printCorrectIncorrect()
+    }
+    
+    func correctLogic() {
+        totalCorrect = totalCorrect + 1
+        correctIncorrect = "Correct :)"
+        printCorrectIncorrect()
+    }
+    
+    func button0Correct() {
+        correctLogic()
+    }
+    
+    func button1Correct() {
+        correctLogic()
+    }
+    
+    func button2Correct() {
+        correctLogic()
+    }
+    
+    func button3Correct() {
+        correctLogic()
+    }
+    
+    func printCorrectIncorrect() {
+        lblTotalCorrect.text = "Total correct: \(totalCorrect)"
+        lblCorrectIncorrect.text = "\(correctIncorrect)"
+        reset()
+    }
+    
+    func reset() {
+        randomizeTheNumbers()
     }
 }
 
