@@ -68,12 +68,27 @@ class ViewController: UIViewController {
         incorrectAnswer2 = Int(arc4random_uniform(4))
         incorrectAnswer3 = Int(arc4random_uniform(20))
         
+        randomNumberCheck()
         printButtonText()
         printQuestion()
     }
     
     func printQuestion() {
         lblQuestion.text = "\(firstNumber) - \(secondNumber) = ?"
+    }
+    
+    func randomNumberCheck() {
+        if answer == incorrectAnswer1 || answer == incorrectAnswer2 || answer == incorrectAnswer3 {
+            incorrectAnswer1 = Int(arc4random_uniform(5))
+            incorrectAnswer2 = Int(arc4random_uniform(4))
+            incorrectAnswer3 = Int(arc4random_uniform(20))
+            
+            if answer == incorrectAnswer1 || answer == incorrectAnswer2 || answer == incorrectAnswer3 {
+                incorrectAnswer1 = 12
+                incorrectAnswer2 = 34
+                incorrectAnswer3 = 13
+            }
+        }
     }
     
     func printButtonText() {
