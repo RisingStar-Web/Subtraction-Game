@@ -73,15 +73,31 @@ class ViewController: UIViewController {
     }
     
     func randomizeTheNumbers() {
-        firstNumber = Int(arc4random_uniform(10))
-        secondNumber = Int(arc4random_uniform(10))
+        
+        firstNumber = Int(arc4random_uniform(20))
+        secondNumber = Int(arc4random_uniform(20))
+        
+        if firstNumber < secondNumber {
+            firstNumber = Int(arc4random_uniform(20))
+            secondNumber = Int(arc4random_uniform(20))
+            
+            if firstNumber < secondNumber {
+                firstNumber = Int(arc4random_uniform(20))
+                secondNumber = Int(arc4random_uniform(20))
+                
+                if firstNumber < secondNumber {
+                    firstNumber = 10
+                    secondNumber = 3
+                }
+            }
+        }
         
         answer = firstNumber - secondNumber
         
         buttonCorrect = Int(arc4random_uniform(4))
         
-        incorrectAnswer1 = Int(arc4random_uniform(5))
-        incorrectAnswer2 = Int(arc4random_uniform(4))
+        incorrectAnswer1 = Int(arc4random_uniform(15))
+        incorrectAnswer2 = Int(arc4random_uniform(10))
         incorrectAnswer3 = Int(arc4random_uniform(20))
         
         randomNumberCheck()
@@ -95,14 +111,26 @@ class ViewController: UIViewController {
     
     func randomNumberCheck() {
         if answer == incorrectAnswer1 || answer == incorrectAnswer2 || answer == incorrectAnswer3 {
-            incorrectAnswer1 = Int(arc4random_uniform(5))
-            incorrectAnswer2 = Int(arc4random_uniform(4))
+            incorrectAnswer1 = Int(arc4random_uniform(15))
+            incorrectAnswer2 = Int(arc4random_uniform(10))
             incorrectAnswer3 = Int(arc4random_uniform(20))
             
             if answer == incorrectAnswer1 || answer == incorrectAnswer2 || answer == incorrectAnswer3 {
-                incorrectAnswer1 = 12
-                incorrectAnswer2 = 34
-                incorrectAnswer3 = 13
+                incorrectAnswer1 = Int(arc4random_uniform(20))
+                incorrectAnswer2 = Int(arc4random_uniform(10))
+                incorrectAnswer3 = Int(arc4random_uniform(15))
+                
+                if answer == incorrectAnswer1 || answer == incorrectAnswer2 || answer == incorrectAnswer3 {
+                    incorrectAnswer1 = Int(arc4random_uniform(15))
+                    incorrectAnswer2 = Int(arc4random_uniform(10))
+                    incorrectAnswer3 = Int(arc4random_uniform(20))
+                    
+                    if answer == incorrectAnswer1 || answer == incorrectAnswer2 || answer == incorrectAnswer3 {
+                        incorrectAnswer1 = 40
+                        incorrectAnswer2 = -1
+                        incorrectAnswer3 = 45
+                    }
+                }
             }
         }
     }
