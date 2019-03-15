@@ -21,6 +21,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnAnswer2: UIButton!
     @IBOutlet weak var btnAnswer3: UIButton!
     
+    var firstNumber : Int = 0
+    var secondNumber : Int = 0
+    var answer : Int = 0
+    
+    var buttonCorrect : Int = 0
+    
+    var incorrectAnswer1 : Int = 0
+    var incorrectAnswer2 : Int = 0
+    var incorrectAnswer3 : Int = 0
+    
+    var totalCorrect : Int = 0
+    var correctIncorrect : String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
