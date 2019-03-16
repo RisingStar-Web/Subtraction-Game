@@ -14,6 +14,13 @@
 		6D74023C2239BBFE00930ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D74023A2239BBFE00930ADA /* LaunchScreen.storyboard */; };
 		6D7402472239BBFE00930ADA /* Subtraction_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402462239BBFE00930ADA /* Subtraction_GameTests.swift */; };
 		6D7402522239BBFE00930ADA /* Subtraction_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402512239BBFE00930ADA /* Subtraction_GameUITests.swift */; };
+		6DA1775F223D936600932EE3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA1775E223D936600932EE3 /* StartViewController.swift */; };
+		6DA17761223D937E00932EE3 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA17760223D937E00932EE3 /* TimeViewController.swift */; };
+		6DA17767223D948F00932EE3 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DA17763223D948F00932EE3 /* win.mp3 */; };
+		6DA17768223D948F00932EE3 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DA17764223D948F00932EE3 /* lose.mp3 */; };
+		6DA17769223D948F00932EE3 /* tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DA17765223D948F00932EE3 /* tick.mp3 */; };
+		6DA1776A223D948F00932EE3 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DA17766223D948F00932EE3 /* click.mp3 */; };
+		6DA1776D223DA1F400932EE3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA1776C223DA1F400932EE3 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		6D74024D2239BBFE00930ADA /* Subtraction GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subtraction GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7402512239BBFE00930ADA /* Subtraction_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtraction_GameUITests.swift; sourceTree = "<group>"; };
 		6D7402532239BBFE00930ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA1775E223D936600932EE3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		6DA17760223D937E00932EE3 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		6DA17763223D948F00932EE3 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		6DA17764223D948F00932EE3 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		6DA17765223D948F00932EE3 /* tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tick.mp3; sourceTree = "<group>"; };
+		6DA17766223D948F00932EE3 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		6DA1776C223DA1F400932EE3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA1776D223DA1F400932EE3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				6D7402452239BBFE00930ADA /* Subtraction GameTests */,
 				6D7402502239BBFE00930ADA /* Subtraction GameUITests */,
 				6D74022F2239BBFA00930ADA /* Products */,
+				6DA1776B223DA1F300932EE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +113,11 @@
 		6D7402302239BBFA00930ADA /* Subtraction Game */ = {
 			isa = PBXGroup;
 			children = (
+				6DA17762223D945800932EE3 /* Sounds */,
 				6D7402312239BBFA00930ADA /* AppDelegate.swift */,
 				6D7402332239BBFA00930ADA /* ViewController.swift */,
+				6DA1775E223D936600932EE3 /* StartViewController.swift */,
+				6DA17760223D937E00932EE3 /* TimeViewController.swift */,
 				6D7402352239BBFA00930ADA /* Main.storyboard */,
 				6D7402382239BBFE00930ADA /* Assets.xcassets */,
 				6D74023A2239BBFE00930ADA /* LaunchScreen.storyboard */,
@@ -123,6 +142,25 @@
 				6D7402532239BBFE00930ADA /* Info.plist */,
 			);
 			path = "Subtraction GameUITests";
+			sourceTree = "<group>";
+		};
+		6DA17762223D945800932EE3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6DA17766223D948F00932EE3 /* click.mp3 */,
+				6DA17764223D948F00932EE3 /* lose.mp3 */,
+				6DA17765223D948F00932EE3 /* tick.mp3 */,
+				6DA17763223D948F00932EE3 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		6DA1776B223DA1F300932EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DA1776C223DA1F400932EE3 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA1776A223D948F00932EE3 /* click.mp3 in Resources */,
 				6D74023C2239BBFE00930ADA /* LaunchScreen.storyboard in Resources */,
+				6DA17768223D948F00932EE3 /* lose.mp3 in Resources */,
 				6D7402392239BBFE00930ADA /* Assets.xcassets in Resources */,
 				6D7402372239BBFA00930ADA /* Main.storyboard in Resources */,
+				6DA17767223D948F00932EE3 /* win.mp3 in Resources */,
+				6DA17769223D948F00932EE3 /* tick.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D7402342239BBFA00930ADA /* ViewController.swift in Sources */,
+				6DA17761223D937E00932EE3 /* TimeViewController.swift in Sources */,
 				6D7402322239BBFA00930ADA /* AppDelegate.swift in Sources */,
+				6DA1775F223D936600932EE3 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Subtraction.gs.develop.Subtraction-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total correct: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCs-9o-vKz">
-                                <rect key="frame" x="16" y="144" width="343" height="60"/>
+                                <rect key="frame" x="16" y="193" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -81,12 +81,24 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 - 1 = ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2u-mZ-fMl">
-                                <rect key="frame" x="16" y="76" width="343" height="60"/>
+                                <rect key="frame" x="16" y="74" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8x-18-icd">
+                                <rect key="frame" x="147" y="142" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1vq-El-ITe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -109,7 +121,7 @@
         <!--Time Mode-->
         <scene sceneID="Tjh-zG-gbq">
             <objects>
-                <viewController title="Time Mode" id="4Aw-g8-eiR" sceneMemberID="viewController">
+                <viewController title="Time Mode" id="4Aw-g8-eiR" customClass="TimeViewController" customModule="Subtraction_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ypz-wd-4IW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,7 +134,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZg-sy-Zx7">
-                                <rect key="frame" x="16" y="144" width="343" height="60"/>
+                                <rect key="frame" x="16" y="179" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -145,6 +157,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnAnswer0ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EOP-td-u0k"/>
+                                    <action selector="btnAnswer0ACTION:" destination="4Aw-g8-eiR" eventType="touchUpInside" id="pN7-1Y-fxI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gs1-SP-61R">
@@ -157,6 +170,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnAnswer1ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O9W-O3-oH8"/>
+                                    <action selector="btnAnswer1ACTION:" destination="4Aw-g8-eiR" eventType="touchUpInside" id="P1O-rB-ptp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MrO-HO-dju">
@@ -169,6 +183,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnAnswer2ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pw5-3u-OnW"/>
+                                    <action selector="btnAnswer2ACTION:" destination="4Aw-g8-eiR" eventType="touchUpInside" id="tkz-uT-0nl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnT-9t-7qe">
@@ -181,28 +196,52 @@
                                 </state>
                                 <connections>
                                     <action selector="btbAnswer3ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1OB-bo-Phl"/>
+                                    <action selector="btbAnswer3ACTION:" destination="4Aw-g8-eiR" eventType="touchUpInside" id="RPf-Wf-CsL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Left: 60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3i-EN-SyD">
-                                <rect key="frame" x="16" y="212" width="343" height="60"/>
+                                <rect key="frame" x="16" y="247" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOb-WR-TTD">
+                                <rect key="frame" x="147" y="141" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y4l-p4-FE5"/>
+                                    <action selector="resetButtonACTION:" destination="4Aw-g8-eiR" eventType="touchUpInside" id="csY-fI-gZ9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="z9e-N7-SV6"/>
                     </view>
+                    <connections>
+                        <outlet property="btnAnswer0" destination="Ld6-57-tn8" id="xuo-Sh-Eg3"/>
+                        <outlet property="btnAnswer1" destination="gs1-SP-61R" id="yzO-99-I7a"/>
+                        <outlet property="btnAnswer2" destination="MrO-HO-dju" id="Jtn-2N-rEk"/>
+                        <outlet property="btnAnswer3" destination="lnT-9t-7qe" id="dIy-xj-JdX"/>
+                        <outlet property="lblCorrectIncorrect" destination="uzD-OU-25E" id="2es-HD-Bqn"/>
+                        <outlet property="lblQuestion" destination="r6h-NJ-8ZD" id="qTa-WV-iEk"/>
+                        <outlet property="lblTimeLeft" destination="R3i-EN-SyD" id="1Mj-Rb-1ch"/>
+                        <outlet property="lblTotalCorrect" destination="yZg-sy-Zx7" id="mb6-Ho-a8m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wTr-3L-WuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2025" y="679"/>
         </scene>
-        <!--View Controller-->
+        <!--Start View Controller-->
         <scene sceneID="DvX-Nj-45d">
             <objects>
-                <viewController id="ADO-fW-WUl" sceneMemberID="viewController">
+                <viewController id="ADO-fW-WUl" customClass="StartViewController" customModule="Subtraction_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sd9-5k-4LN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -254,6 +293,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnAnswer0ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFE-yj-ySX"/>
+                                    <action selector="timeModeButtonACTION:" destination="ADO-fW-WUl" eventType="touchUpInside" id="90L-2V-le4"/>
                                     <segue destination="4Aw-g8-eiR" kind="show" id="GF2-GT-5Qo"/>
                                 </connections>
                             </button>
@@ -267,6 +307,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnAnswer0ACTION:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Bu-pb-dpE"/>
+                                    <action selector="endlessModeButtonACTION:" destination="ADO-fW-WUl" eventType="touchUpInside" id="QFR-fl-AUD"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="hoE-wQ-PVE"/>
                                 </connections>
                             </button>
@@ -275,6 +316,10 @@
                         <viewLayoutGuide key="safeArea" id="6BB-6m-edp"/>
                     </view>
                     <navigationItem key="navigationItem" id="T6p-zD-43Y"/>
+                    <connections>
+                        <outlet property="lblEndlessModeScore" destination="vaC-7R-gMl" id="Epn-SU-F5p"/>
+                        <outlet property="lblTimeModeBestScore" destination="Dij-NB-uOi" id="CH3-xs-vGk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zNJ-qp-isb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
