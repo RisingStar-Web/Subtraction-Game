@@ -11,7 +11,6 @@ import AudioToolbox
 import AVFoundation
 
 var timer = Timer()
-
 class TimeViewController: UIViewController {
     
     @IBOutlet weak var lblQuestion: UILabel!
@@ -263,7 +262,7 @@ class TimeViewController: UIViewController {
             self.view.backgroundColor = UIColor.red
             
             UIView.animate(withDuration: 0.8, animations: {
-                self.view.backgroundColor = UIColor.white
+                self.view.backgroundColor = hexStringToUIColor("#d99b3b")
             }, completion: nil)
             
         }, completion: nil)
@@ -293,7 +292,7 @@ class TimeViewController: UIViewController {
             self.view.backgroundColor = UIColor.green
             
             UIView.animate(withDuration: 0.8, animations: {
-                self.view.backgroundColor = UIColor.white
+                self.view.backgroundColor = hexStringToUIColor("#d99b3b")
             }, completion: nil)
             
         }, completion: nil)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0F10B12334C401003B6A53 /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F10B02334C401003B6A53 /* button.swift */; };
 		6D7402322239BBFA00930ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402312239BBFA00930ADA /* AppDelegate.swift */; };
 		6D7402342239BBFA00930ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7402332239BBFA00930ADA /* ViewController.swift */; };
 		6D7402372239BBFA00930ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7402352239BBFA00930ADA /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F0F10B02334C401003B6A53 /* button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
 		6D74022E2239BBFA00930ADA /* Subtraction Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Subtraction Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7402312239BBFA00930ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D7402332239BBFA00930ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		6D7402302239BBFA00930ADA /* Subtraction Game */ = {
 			isa = PBXGroup;
 			children = (
+				5F0F10B02334C401003B6A53 /* button.swift */,
 				6DA17762223D945800932EE3 /* Sounds */,
 				6D7402312239BBFA00930ADA /* AppDelegate.swift */,
 				6D7402332239BBFA00930ADA /* ViewController.swift */,
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D7402342239BBFA00930ADA /* ViewController.swift in Sources */,
+				5F0F10B12334C401003B6A53 /* button.swift in Sources */,
 				6DA17761223D937E00932EE3 /* TimeViewController.swift in Sources */,
 				6D7402322239BBFA00930ADA /* AppDelegate.swift in Sources */,
 				6DA1775F223D936600932EE3 /* StartViewController.swift in Sources */,
